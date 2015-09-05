@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <link href='http://fonts.googleapis.com/css?family=Lobster|Pirata+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
+    <title>Trump Generator</title>
+    <link rel="stylesheet" href="css/quiz.css">
+  </head>
+<body>
+  <header>
+  
+  Which Candidate Would You Vote For?
+    
+  </header>
+  
+ 
+  
+  <div class="leftside">
+  <p class="quiztitle">
+    Click the Pictures for More Information
+  </p>
+  <br>
+  <ul class="img-list">
+  <li>
+    <a href="http://www.ontheissues.org/Hillary_Clinton.htm" target="_blank">
+      <img src="img/hillary.jpg" width="190" height="190" />
+      <span class="text-content"><span>Hillary Clinton</span></span>
+    </a>
+    </li>
+    <li>
+    <a href="http://www.ontheissues.org/Donald_Trump.htm" target="_blank">
+      <img src="img/trump.jpg" width="190" height="190" />
+      <span class="text-content"><span>Donald Trump</span></span>
+    </a>
+    </li>
+    <li>
+    <a href="http://www.ontheissues.org/Ben_Carson.htm" target="_blank">
+      <img src="img/carson.jpg" width="190" height="190" />
+      <span class="text-content"><span>Ben Carson</span></span>
+    </a>
+    </li>
+    <li>
+    <a href="http://www.ontheissues.org/Bernie_Sanders.htm" target="_blank">
+      <img src="img/sanders.jpg" width="190" height="190" />
+      <span class="text-content"><span>Bernie Sanders</span></span>
+    </a>
+  </li>
+    <li>
+    <a href="http://www.ontheissues.org/Jeb_Bush.htm" target="_blank">
+      <img src="img/bush.jpg" width="190" height="190" />
+      <span class="text-content"><span>Jeb Bush</span></span>
+    </a>
+  </li>
+    <li>
+    <a href="http://www.ontheissues.org/Marco_Rubio.htm" target="_blank">
+      <img src="img/rubio.jpg" width="190" height="190" />
+      <span class="text-content"><span>Marco Rubio</span></span>
+    </a>
+  </li>
+    <li>
+    <a href="http://www.ontheissues.org/Scott_Walker.htm" target="_blank">
+      <img src="img/walker.jpg" width="190" height="190" />
+      <span class="text-content"><span>Scott Walker</span></span>
+    </a>
+  </li>
+    <li>
+    <a href="http://www.ontheissues.org/Ted_Cruz.htm" target="_blank">
+      <img src="img/cruz.jpg" width="190" height="190" />
+      <span class="text-content"><span>Ted Cruz</span></span>
+    </a>
+  </li>
+    <li>
+    <a href="http://www.ontheissues.org/Joe_Biden.htm" target="_blank">
+      <img src="img/biden.jpg" width="190" height="190" />
+      <span class="text-content"><span>Joe Biden</span></span>
+    </a>
+  </li>
+  
+</ul>
+  
+  
+  <br>
+
+  
+  </div>
+  
+  
+   <!--
+
+<div class="rightside">
+  <h1>What Type Of Thing Are You?</h1>
+    <ul class="quiz-step step1 current">
+        <li class="question">
+            <div class="question-wrap">
+                <h2>Question #1: Are you more...</h2>
+            </div>
+        </li>
+        <li class="quiz-answer low-value" data-quizIndex="2">
+            <div class="answer-wrap"> 
+                <p class="answer-text">This Thing</p>
+            </div>
+        </li>
+        <li class="quiz-answer high-value" data-quizIndex="4">
+            <div class="answer-wrap"> 
+                <p class="answer-text">That Thing</p>
+            </div>
+        </li>
+    </ul>
+    <ul class="quiz-step step2">
+        <li class="question">
+            <div class="question-wrap">
+                <p>Question #2: Are you more...</p>
+            </div>
+        </li>
+        <li class="quiz-answer low-value" data-quizIndex="2">
+            <div class="answer-wrap"> 
+                <p class="answer-text">First Thing</p>
+            </div>
+        </li>
+        <li class="quiz-answer high-value" data-quizIndex="4">
+            <div class="answer-wrap">
+                <p class="answer-text">Second Thing</p>
+            </div>
+        </li>
+    </ul>
+    <ul class="quiz-step step3">
+        <li class="question">
+            <div class="question-wrap">
+                <p>Question #3: Are you more...</p>
+            </div>
+        </li>
+        <li class="quiz-answer low-value" data-quizIndex="2">
+            <div class="answer-wrap">
+                <p class="answer-text">One Thing</p>
+            </div>
+        </li>
+        <li class="quiz-answer high-value" data-quizIndex="4">
+            <div class="answer-wrap">
+                <p class="answer-text">Another Thing</p>
+            </div>
+        </li>
+    </ul>
+    <ul class="quiz-step step4">
+        <li class="question">
+            <div class="question-wrap">
+                <p>Question #4: Are you more...</p>
+            </div>
+        </li>
+        <li class="quiz-answer low-value" data-quizIndex="2">
+            <div class="answer-wrap">
+                <p class="answer-text">Thing 1</p>
+            </div>
+        </li>
+        <li class="quiz-answer high-value" data-quizIndex="4">
+            <div class="answer-wrap">
+                <p class="answer-text">Thing 2</p>
+            </div>
+        </li>
+    </ul>
+    <ul id="results">
+        <li class="results-inner">
+            <p>Your result is:</p>
+            <h1></h1>
+            <p class="desc"></p>
+        </li>
+    </ul>
+</div>
+
+-->
+  
+  <div class="rightside">
+ <p class ="quiztitle">Survey</p><br>
+  <form action="index.php" name="my form" method="POST">
+<input type="radio" name="question2" value="1">It is a woman's right to choose if she wants an abortion.<br>
+<input type="radio" name="question2" value="2">Abortion is an act of murder and should be made illegal.
+</form>
+  
+  <br>
+  
+  <form action="">
+<input type="radio" name="question3" value="1">Cutting taxes on job creators benefits everyone. <br>
+<input type="radio" name="question3" value="2">Big businesses should pay higher taxes to stimulate economic growth.
+</form>
+  
+  <br>
+  
+ <form action="">
+<input type="radio" name="question4" value="1">Gay marriage is a Constitutional right.<br>
+<input type="radio" name="question4" value="2">Let businesses express religious freedom against gays.
+</form>
+  
+  <br>
+  
+   <form action="">
+<input type="radio" name="question5" value="1">Building private prisons would save 15%-20% of state costs..<br>
+<input type="radio" name="question5" value="2">Privately owned prisons are a crime against humanity.
+</form>
+  
+  <br>
+  
+   <form action="">
+<input type="radio" name="question6" value="1">I support the implimentation of gun control.<br>
+<input type="radio" name="question6" value="2">Gun education would be better than gun control.
+</form>
+  
+  <br>
+  
+  <form action="">
+<input type="radio" name="question6" value="1">Legal, commercially available mariuana seems fine.<br>
+<input type="radio" name="question6" value="2">The use of mariuana should be banned medically and commercially.<br>
+    <input type="radio" name="question6" value="2">Medical mariuana is OK, but it's a bad idea to commercialize it.
+    </form>
+    
+    <br>
+    
+    <form action="">
+<input type="radio" name="question6" value="1">There is not enough evidence to support the idea of Global Warming.<br>
+<input type="radio" name="question6" value="2">Global Warming is a major issue that needs to be addressed.
+</form>
+  
+  <br>
+  
+  <form action="">
+<input type="radio" name="question6" value="1">The Iran-nuclear deal was a farse. We gave Iran too much money.<br>
+<input type="radio" name="question6" value="2">The Iran-nuclear deal was necessary to remove Iranan nuclear threats.
+    </form>
+    <br>
+    
+    <form action="">
+<input type="radio" name="question6" value="1">We need NSA intel to fight emerging terrorist threats. <br>
+<input type="radio" name="question6" value="2">The NSA's monitoring of cell phones and emails is unconstitutional. 
+</form>
+  
+    <br><br><br><br>
+<button type="button" class="btn">Generate</button>
+    </div>
+  <div class="tweets">
+    <a class="twitter-timeline" href="https://twitter.com/DanielDrheat01/lists/presidential-candidates" data-widget-id="638538518453690369" data-chrome="noheader nofooter">Tweets from https://twitter.com/DanielDrheat01/lists/presidential-candidates </a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div>
+  
+
+
+  <a href="img/protest.jpg" id="amendment"><img id="amendmentimage" src="img/protest.jpg" width="500" alt="Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.">The First Amendment</a>
+  <br>
+  <script src="images.js"></script>
+ <div id="overlay"> </div>
+  
+  <div class="amendment" class ="second">The First Amendment</div>
+  <br>
+  <div class="amendment" class ="third">The First Amendment</div>
+  <br>
+  <div class="amendment" class ="fourth">The First Amendment</div>
+  <br>
+  <div class="amendment">The First Amendment</div>
+  <br>
+  <div class="amendment">The First Amendment</div>
+  <br>
+  <div class="amendment">The First Amendment</div>
+  <br>
+   
+    
+  
+
+</body>
+</html>
