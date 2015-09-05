@@ -1,0 +1,55 @@
+
+  
+ 
+  
+  
+    var strings =["You know, it really doesn't matter what the media write as long as you've got a young and beautiful piece of ass.", "When was the last time anybody saw us beating China in a trade deal? They kill us. I beat China all the time. All the time.", "Nobody builds walls better than me, believe me, and I'll build them very inexpensively. I will build a great, great wall on our southern border, and I will make Mexico pay for that wall. Mark my words.", "When Mexico sends its people, they're not sending the best. They're bringing drugs. They're bringing crime. They're rapists. ... And some, I assume, are good people.", "The only kind of people I want counting my money are little short guys that wear yamakas every day.", "If you can't get rich dealing with politicians, there's something wrong with you.", "We build a school, we build a road, they blow up the school, we build another school, in the meantime we can't get a f'ing school in Brooklyn.", "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate.","Free trade is terrible. Free trade can be wonderful if you have smart people. But we have stupid people [in office].","He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you.", "One of the key problems today is that politics is such a disgrace. Good people don't go into government.", "I think the fourteenth amendment is unconstitutional."];
+
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+
+
+$('#clickme').click(function() {
+  var randomNum = getRandomInt (1,6);
+$('#image1').attr('src','img/' + randomNum + '.jpg');
+ 
+var randomNum2 = getRandomInt (0,11);
+$('#caption').text(strings [randomNum2]);
+  $( "h1, .title" ).remove();
+});
+/////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+var $overlay = $('<div id="overlay"></div>');
+var $image = $("<img>");
+var $caption = $("<p></p>");
+$overlay.append($image);
+$overlay.append($caption);
+
+
+
+$("body").append($overlay);
+
+
+$("#amendment").click(function(event){
+  event.preventDefault();
+ var imageLocation= $(this).attr("href");
+  $image.attr("src", imageLocation);
+  $overlay.show();
+  
+  var captionText = $(this).children("img").attr("alt");
+  $caption.text(captionText);
+});
+
+// or you could just use 'this'
+$("#overlay").click(function(){
+    $(this).hide();
+});
+  
