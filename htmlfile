@@ -172,66 +172,67 @@
   
   <div class="rightside">
  <p class ="quiztitle">Survey</p><br>
-  <form action="index.php" name="my form" method="POST">
-<input type="radio" name="question2" value="1">It is a woman's right to choose if she wants an abortion.<br>
-<input type="radio" name="question2" value="2">Abortion is an act of murder and should be made illegal.
-</form>
-  
-  <br>
-  
-  <form action="">
-<input type="radio" name="question3" value="1">Cutting taxes on job creators benefits everyone. <br>
-<input type="radio" name="question3" value="2">Big businesses should pay higher taxes to stimulate economic growth.
-</form>
-  
-  <br>
-  
- <form action="">
-<input type="radio" name="question4" value="1">Gay marriage is a Constitutional right.<br>
-<input type="radio" name="question4" value="2">Let businesses express religious freedom against gays.
-</form>
-  
-  <br>
-  
-   <form action="">
-<input type="radio" name="question5" value="1">Building private prisons would save 15%-20% of state costs..<br>
-<input type="radio" name="question5" value="2">Privately owned prisons are a crime against humanity.
-</form>
-  
-  <br>
-  
-   <form action="">
-<input type="radio" name="question6" value="1">I support the implimentation of gun control.<br>
-<input type="radio" name="question6" value="2">Gun education would be better than gun control.
-</form>
-  
-  <br>
-  
-  <form action="">
-<input type="radio" name="question6" value="1">Legal, commercially available mariuana seems fine.<br>
-<input type="radio" name="question6" value="2">The use of mariuana should be banned medically and commercially.<br>
-    <input type="radio" name="question6" value="2">Medical mariuana is OK, but it's a bad idea to commercialize it.
-    </form>
     
-    <br>
+    <ol>
+    <li>
+      <ul>
+      <button  class= "survey" value="1">first</button><br>
+        <button  class= "survey" value="2">second</button><br>
+        <button  class= "survey" value="3">third</button><br>
+     
+        <br>
+      </ul>
+      </li><br>
+      <li>
+      <ul>
+      <button  class= "survey2" value="1">first</button><br>
+        <button  class= "survey2" value="2">second</button><br>
+        <button  class= "survey2" value="3">third</button><br>
+     
+        <br>
+      </ul>
+      </li>
+      <br>
+      <li>
+      <ul>
+      <button  class= "survey3" value="1">first</button><br>
+        <button  class= "survey3" value="2">second</button><br>
+        <button  class= "survey3" value="3">third</button><br>
+     
+        <br>
+      </ul>
+      </li>
+      <br>
+      <li>
+      <ul>
+      <button  class= "survey4" value="1">first</button><br>
+        <button  class= "survey4" value="2">second</button><br>
+        <button  class= "survey4" value="3">third</button><br>
+     
+        <br>
+      </ul>
+      </li>
+      <br>
+      <li>
+      <ul>
+      <button  class= "survey5" value="1">first</button><br>
+        <button  class= "survey5" value="2">second</button><br>
+        <button  class= "survey5" value="3">third</button><br>
+     
+        <br>
+      </ul>
+      </li>
     
-    <form action="">
-<input type="radio" name="question6" value="1">There is not enough evidence to support the idea of Global Warming.<br>
-<input type="radio" name="question6" value="2">Global Warming is a major issue that needs to be addressed.
-</form>
+    </ol>
+ </div>
+    
+    
+    
+
   
   <br>
   
-  <form action="">
-<input type="radio" name="question6" value="1">The Iran-nuclear deal was a farse. We gave Iran too much money.<br>
-<input type="radio" name="question6" value="2">The Iran-nuclear deal was necessary to remove Iranan nuclear threats.
-    </form>
-    <br>
-    
-    <form action="">
-<input type="radio" name="question6" value="1">We need NSA intel to fight emerging terrorist threats. <br>
-<input type="radio" name="question6" value="2">The NSA's monitoring of cell phones and emails is unconstitutional. 
-</form>
+ 
   
     <br><br><br><br>
 <button type="button" class="btn">Generate</button>
@@ -242,25 +243,34 @@
     </div>
   
 
+  
+  
+  <div class="amendmenttitle">
+  <p>
+    The Amendments of the Constitution
+  </p>
+  </div>
 
-  <a href="img/protest.jpg" id="amendment"><img id="amendmentimage" src="img/protest.jpg" width="500" alt="Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.">The First Amendment</a>
+  <a href="img/protest.jpg" id="amendment"><img id="amendmentimage" src="img/protest.jpg" width="500" alt="Freedom of Speech">1</a>
   <br>
+  
+  
+  <a href="img/gun.jpg" id="amendment"><img id="amendmentimage" src="img/gun.jpg" width="500" alt="Right to Bear Arms">2</a>
+  <br>
+  
+  <a href="img/soldier.jpg" id="amendment"><img id="amendmentimage" src="img/soldier.jpg" width="500" alt="Right to Deny Quartering of Soldiers">3</a>
+  <br>
+  
+  <a href="img/warrant.jpg" id="amendment"><img id="amendmentimage" src="img/warrant.jpg" width="500" alt="Right to Demand Probable Cause">4</a>
+  <br>
+  
+  <a href="img/protest.jpg" id="amendment"><img id="amendmentimage" src="img/protest.jpg" width="500" alt="No person shall be held to answer for a capital, or otherwise infamous crime, unless on a presentment or indictment of a Grand Jury, except in cases arising in the land or naval forces, or in the Militia, when in actual service in time of War or public danger; nor shall any person be subject for the same offence to be twice put in jeopardy of life or limb; nor shall be compelled in any criminal case to be a witness against himself, nor be deprived of life, liberty, or property, without due process of law; nor shall private property be taken for public use, without just compensation.">5</a>
+  <br>
+  
   <script src="images.js"></script>
  <div id="overlay"> </div>
   
-  <div class="amendment" class ="second">The First Amendment</div>
-  <br>
-  <div class="amendment" class ="third">The First Amendment</div>
-  <br>
-  <div class="amendment" class ="fourth">The First Amendment</div>
-  <br>
-  <div class="amendment">The First Amendment</div>
-  <br>
-  <div class="amendment">The First Amendment</div>
-  <br>
-  <div class="amendment">The First Amendment</div>
-  <br>
-   
+  
     
   
 
