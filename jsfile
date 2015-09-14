@@ -33,12 +33,9 @@ var $caption = $("<p></p>");
 $overlay.append($image);
 $overlay.append($caption);
 
-
-
 $("body").append($overlay);
 
-
-$("#amendment").click(function(event){
+$("#amendment, amendment2").click(function(event){
   event.preventDefault();
  var imageLocation= $(this).attr("href");
   $image.attr("src", imageLocation);
@@ -52,4 +49,115 @@ $("#amendment").click(function(event){
 $("#overlay").click(function(){
     $(this).hide();
 });
+
+
+
+
+///////////////////////////////////////////////////////////////////
+
+
+var hillaryAnswers = ['1','2','1','1','3'];
+
+var hillarySameAnswers = 0;
+
+var yourAnswers = [];
+
+/////////////////////////1
+
+$(".survey").click(function(){
+ 
+
+ yourAnswers.splice(0,1,$(this).val());
+    yourAnswers.push;
   
+  console.log(yourAnswers);
+  console.log(yourAnswers.length);
+  })
+;
+
+function getAnswers () {
+  $(".survey").each(function() {
+    yourAnswers.push($(this).val());
+  })
+};
+///////////////////////////////2  
+
+$(".survey2").click(function(){
+ 
+  
+   yourAnswers.splice(1,1,$(this).val());
+  
+  console.log(yourAnswers);
+  console.log(yourAnswers.length);
+  })
+;
+
+function getAnswers () {
+  $(".survey2").each(function() {
+    yourAnswers.push($(this).val());
+  })
+};
+
+/////////////////////////////////3
+
+$(".survey3").click(function(){
+ 
+  
+   yourAnswers.splice(2,1,$(this).val());
+   
+  
+  console.log(yourAnswers);
+  console.log(yourAnswers.length);
+  })
+;
+
+function getAnswers () {
+  $(".survey2").each(function() {
+    yourAnswers.push($(this).val());
+  })
+};
+/////////////////////////////////////4
+
+$(".survey4").click(function(){
+ 
+  
+  yourAnswers.splice(3,1,$(this).val());
+  
+  console.log(yourAnswers);
+  console.log(yourAnswers.length);
+  })
+;
+
+function getAnswers () {
+  $(".survey2").each(function() {
+    yourAnswers.push($(this).val());
+  })
+};
+
+
+///////////////////////////////////////5
+
+
+$(".survey5").click(function(){
+ 
+  
+   yourAnswers.splice(4,1,$(this).val());
+  
+  console.log(yourAnswers);
+  console.log(yourAnswers.length);
+  })
+;
+
+function getAnswers () {
+  $(".survey2").each(function() {
+    yourAnswers.push($(this).val());
+  })
+};
+
+  
+$(".btn").click(function finalAnswer(){
+  if(yourAnswers === hillaryAnswers) {
+    console.log("hillary4prez");}
+      {console.log("hillary4prison");}
+  
+});
