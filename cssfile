@@ -82,19 +82,39 @@ body {
 }
 
 #amendment{
-  margin-top: 1%;
+  margin: 20px;
     background-color: #fff;
     position: relative;
-    border-radius: 4px;
+    border-radius: 5px;
     box-shadow: 0 2px 0 0 rgba(0,0,0,0.1);
   float: left;
-  width: 480px;
-  height: auto;
+  width: 75px;
+  height: 75px;
   padding: 1%;
-  padding-right:1%;
   text-align: center; 
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
+  font-size: 4em;
+  font-family: 'Pirata One', cursive; 
+  font-weight: 300;
+  color: black;
+}
+
+
+
+.amendmenttitle{
+  margin: 0.2%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+    background-color: #edeff0;
+    position: relative;
+    text-align: center;
+    font-family: 'Pirata One', cursive; 
+  font-size: 3em;
+  float: left;
+  width: 700px;
+  height: auto;
+ 
+  
+  
 }
 
 #overlay {
@@ -109,16 +129,23 @@ body {
 }
 
 #overlay img {
- margin-top: 10% 
+ margin-top: 5%;
+ width: 600px;
+  height: 400px;
+  
    
 }
 
 
 #overlay p {
+  margin-top: 2%;
+  letter-spacing: .03em;
  color:white; 
  text-align: center;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
+ font-family: "pirata one", cursive;
+  font-size: 4em;
 }
 
 
@@ -267,6 +294,12 @@ span.text-content {
  
 }
 
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
  /* quiz statistics
   
   (bernie/hillary) sf=strongly favors,f=favors,n=neutral,o=opposes,so=strongly opposes (sf,f,n,o,so)
@@ -383,12 +416,14 @@ ties will display both candidates
                (o/f/f/o/o/o) dont protect environment
                (o/o/o/f/f/f) citizenship
                (f/f/f/o/o/o) american exceptionalism
-               (o/f/f/f)stricter punishment
                (n/n/f/o/f/f) easier registration
                (o/f/o/o/f/f) higher taxes on wealthy
                (o/n/f/f/o/o) marijuana is bad
   
   */
+
+
+
   
 
 
